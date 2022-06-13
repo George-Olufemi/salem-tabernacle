@@ -1,23 +1,23 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import LocateUs from './Pages/LocateUs';
+import ServiceTimes from './Pages/ServiceTimes';
+import NoMatch from './Pages/NoMatch';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p className="underline">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes> 
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<LocateUs />} />
+        <Route path="/contact" element={<ServiceTimes />} />
+        <Route path="/*" element={<NoMatch />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
