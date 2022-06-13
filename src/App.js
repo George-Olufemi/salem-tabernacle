@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
+import Sermons from './Pages/Sermons';
 import LocateUs from './Pages/LocateUs';
 import ServiceTimes from './Pages/ServiceTimes';
 import NoMatch from './Pages/NoMatch';
@@ -12,9 +13,10 @@ function App() {
     <BrowserRouter>
       <Routes> 
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<LocateUs />} />
-        <Route path="/contact" element={<ServiceTimes />} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="/sermons" element={<Sermons />} />
+        <Route path="/locate-us" element={<LocateUs />} />
+        <Route path="/servicetimes" element={<ServiceTimes />} />
         <Route path="/*" element={<NoMatch />} />
       </Routes>
     </BrowserRouter>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function NoMatch() {
     return (
         <React.Fragment>
-        <div>
+        <div className="pt-32">
             <h1 className="text-center text-5xl font-bold mt-10 text-red-500">Error 404!</h1>
             <h1 className="text-center text-5xl font-bold mt-10">Oops, Page doesn't exist...</h1>
             <h1 className="text-center text-5xl font-bold mt-10">Click the button below to return back to safe zone...</h1>

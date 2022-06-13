@@ -1,9 +1,12 @@
 import React from "react";
+import Hero from '../components/Hero';
 
 function Home() {
     return(
         <React.Fragment>
-            <div>home</div>
+            <div>
+                <Hero />
+            </div>
         </React.Fragment>
     );
 }
