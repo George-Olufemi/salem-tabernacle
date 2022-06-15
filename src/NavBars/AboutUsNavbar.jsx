@@ -22,8 +22,9 @@ function AboutUsNavbar() {
                 <ul className={(open ? 'left-0':'-left-full') + ' md:flex pt-10 absolute md:static hex md:bg-transparent md:z-auto w-full h-full md:w-auto transition-all duration-500'}>
                     <Link to="/"><li className='pr-7 pl-7 pb-3 pt-3 md:pt-0 text-center text-2xl tracking-wider md:border-b-4 hover:text-gray-400 md:hover:border-gray-400 transition-all hover:scale-105'>Home</li></Link>
                     <Link to="/about-us"><li className='pr-7 pl-7 pb-3 pt-3 md:pt-0 text-center text-2xl tracking-wider hover:text-gray-400 md:hover:border-gray-400 transition-all hover:scale-105'>About Us</li></Link>
-                    <Link to="/locate-us"><li className='pr-7 pl-7 pb-3 pt-3 md:pt-0 text-center text-2xl tracking-wider hover:text-gray-400 md:hover:border-gray-400 transition-all hover:scale-105'>Locate Us</li></Link>
-                    <Link to="/servicetimes"><li className='pr-7 pl-7 pb-3 pt-3 md:pt-0 text-center text-2xl tracking-wider hover:text-gray-400 md:hover:border-gray-400 transition-all hover:scale-105'>Service Times</li></Link>
+                    <Link to="/about-us"><li className='pr-7 pl-7 pb-3 pt-3 md:pt-0 text-center text-2xl tracking-wider hover:text-gray-400 md:hover:border-gray-400 transition-all hover:scale-105'>Sermons</li></Link>
+                    <Link to="/locate-us"><li className='pr-7 pl-7 pb-3 pt-3 md:pt-0 text-center text-2xl tracking-wider hover:text-gray-400 md:hover:border-gray-400 transition-all hover:scale-105'>Live Stream</li></Link>
+                    <Link to="/servicetimes"><li className='pr-7 pl-7 pb-3 pt-3 md:pt-0 text-center text-2xl tracking-wider hover:text-gray-400 md:hover:border-gray-400 transition-all hover:scale-105'>Locate Us</li></Link>
                 </ul>
             </div>
         </nav>
@@ -40,10 +41,11 @@ function AboutUsNavbar() {
             {/* nav links div */}
             <div className="">
                 <ul className={(open ? 'left-0':'-left-full') + ' md:flex pt-5 absolute md:static md:bg-transparent md:z-auto w-full h-full md:w-auto transition-all duration-300'}>
-                    <Link to="/"><li className='mr-10 pt-3 md:pt-0 text-center text-lg tracking-wider md:hover:border-white transition-all hover:scale-105'>Home</li></Link>
+                    <Link to="/"><li className='mr-10 pt-3 md:pt-0 text-center text-lg tracking-wider transition-all hover:scale-105'>Home</li></Link>
                     <Link to="/about-us"><li className='mr-10 pt-3 md:pt-0 text-center text-lg tracking-wider md:hover:border-yellow-700 transition-all hover:scale-105 md:border-b-4 border-yellow-700'>About Us</li></Link>
-                    <Link to="/locate-us"><li className='mr-10 pb-3 md:pt-0 text-center text-lg tracking-widerrmd:hover:border-white transition-all hover:scale-105'>Locate Us</li></Link>
-                    <Link to="/servicetimes"><li className='mr-16 pt-3 md:pt-0 text-center text-lg tracking-wider md:hover:border-white transition-all hover:scale-105'>Service Times</li></Link>
+                    <Link to="/locate-us"><li className='mr-10 pb-3 md:pt-0 text-center text-lg tracking-wider md:hover:border-white transition-all hover:scale-105'>Sermons</li></Link>
+                    <Link to="/locate-us"><li className='mr-10 pb-3 md:pt-0 text-center text-lg tracking-wider md:hover:border-white transition-all hover:scale-105'>Live Stream</li></Link>
+                    <Link to="/servicetimes"><li className='mr-16 pt-3 md:pt-0 text-center text-lg tracking-wider md:hover:border-white transition-all hover:scale-105'>Locate Us</li></Link>
                 </ul>
             </div>
         </nav>
