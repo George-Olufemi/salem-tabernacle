@@ -6,7 +6,7 @@ function Announcement() {
     return(
         <React.Fragment>
             <div className="announcement h-full text-center py-16">
-                <h1 className="text-3xl font-semibold pb-10">ANNOUNCEMENTS</h1>
+                <h3 className="text-3xl font-semibold pb-10">ANNOUNCEMENTS</h3>
                     <div className="flex justify-center items-center pb-10">
                         <img src={campaign} alt="campaign"/>
                     </div>

@@ -12,7 +12,7 @@ function Footer() {
                 <div className="pb-6">
                     <div className="flex justify-center items-center pb-2 md:pb-5">
                         <div className="pr-2 font-semibold text-xl">
-                            <h1>Phone</h1>
+                            <h3>Phone</h3>
                         </div>
                         <div>
                             <img src={phone} alt="phone" />
@@ -26,7 +26,7 @@ function Footer() {
                 <div className="pb-6">
                     <div className="flex justify-center items-center pb-2 md:pb-5">
                         <div className="pr-2 font-semibold text-xl">
-                            <h1>Email</h1>
+                            <h3>Email</h3>
                         </div>
                         <div>
                             <img src={mail} alt="phone" />
@@ -38,7 +38,7 @@ function Footer() {
                 <div className="pb-6">
                     <div className="flex justify-center items-center pb-2 md:pb-5">
                         <div className="pr-2 font-semibold text-xl">
-                            <h1>Address</h1>
+                            <h3>Address</h3>
                         </div>
                         <div>
                             <img src={address} alt="phone" />

@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import './HomeNavbar.css';
-import '../NavBars/HomeNavbar.css';
 
-function AboutUsNavbar() {
+function LivestreamNavbar() {
   const [open, setOpen] = useState(false);
   return(
     <React.Fragment>
@@ -42,9 +41,9 @@ function AboutUsNavbar() {
             <div className="">
                 <ul className={(open ? 'left-0':'-left-full') + ' md:flex pt-5 absolute md:static md:bg-transparent md:z-auto w-full h-full md:w-auto transition-all duration-300'}>
                     <Link to="/"><li className='mr-10 pt-3 md:pt-0 text-center text-lg tracking-wider transition-all hover:scale-105'>Home</li></Link>
-                    <Link to="/about-us"><li className='mr-10 pt-3 md:pt-0 text-center text-lg tracking-wider md:hover:border-yellow-700 transition-all hover:scale-105 md:border-b-4 border-yellow-700'>About Us</li></Link>
-                    <Link to="/sermons"><li className='mr-10 pb-3 md:pt-0 text-center text-lg tracking-wider md:hover:border-white transition-all hover:scale-105'>Sermons</li></Link>
-                    <Link to="/livestream"><li className='mr-10 pb-3 md:pt-0 text-center text-lg tracking-wider md:hover:border-white transition-all hover:scale-105'>Live Stream</li></Link>
+                    <Link to="/about-us"><li className='mr-10 pt-3 md:pt-0 text-center text-lg tracking-wider transition-all hover:scale-105'>About Us</li></Link>
+                    <Link to="/sermons"><li className='mr-10  md:pt-0 text-center text-lg tracking-wider transition-all hover:scale-105'>Sermons</li></Link>
+                    <Link to="/livestream"><li className='mr-10 md:pt-0 text-center text-lg tracking-wider transition-all hover:scale-105 border-yellow-700 md:hover:border-yellow-700 md:border-b-4'>Live Stream</li></Link>
                     <Link to="/locate-us"><li className='mr-16 pt-3 md:pt-0 text-center text-lg tracking-wider md:hover:border-white transition-all hover:scale-105'>Locate Us</li></Link>
                 </ul>
             </div>
@@ -53,4 +52,4 @@ function AboutUsNavbar() {
   );
 }
 
-export default AboutUsNavbar;
+export default LivestreamNavbar;

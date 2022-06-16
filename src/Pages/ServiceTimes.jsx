@@ -1,9 +1,12 @@
 import React from "react";
+import LivestreamNavbar from '../NavBars/LivestreamNavbar';
 
 function ServiceTimes() {
     return(
         <React.Fragment>
-            <div>service times</div>
+            <div className="livestream h-screen">
+                <LivestreamNavbar />
+            </div>
         </React.Fragment>
     );
 }

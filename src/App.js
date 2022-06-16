@@ -15,8 +15,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/sermons" element={<Sermons />} />
-        <Route path="/locate-us" element={<LocateUs />} />
         <Route path="/livestream" element={<ServiceTimes />} />
+        <Route path="/locate-us" element={<LocateUs />} />
         <Route path="/*" element={<NoMatch />} />
       </Routes>
     </BrowserRouter>
