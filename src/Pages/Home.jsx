@@ -41,7 +41,7 @@ function Home() {
                             </div>
                         {/* content */}
                         <h3 className="pt-9 pb-2 font-semibold text-lg">Sunday School Service</h3>
-                        <p className="pb-4 time">8:30 am</p>
+                        <h1 className="pb-4 time">8:30 am</h1>
                             <div className="flex justify-center items-center">
                                 <img src={hr} alt="hr" />
                             </div>
