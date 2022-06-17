@@ -3,12 +3,18 @@ import Timer from "../components/Timer";
 import LivestreamNavbar from '../NavBars/LivestreamNavbar';
 import './ServiceTimes.css';
 import Modal from '../components/Modal';
+import { motion } from "framer-motion";
 
 
 function ServiceTimes() {
     return(
         <React.Fragment>
-            <div className="livestream h-screen md:h-screen">
+            <motion.div 
+                initial={{ opacity: 0, width: 0 }}
+                animate={{ opacity: 1, width: "100%", transition: { duration: 0.9 } }}
+                exit={{ opacity: 0, x: window.innerWidth, transition: { duration: 0.9 } }}
+                className="livestream h-screen md:h-screen"
+            >
                 <LivestreamNavbar />
                     <div>
                         <Timer />
@@ -19,7 +25,7 @@ function ServiceTimes() {
                                 <Modal />
                             </div> */}
                     </div>
-            </div>
+            </motion.div>
         </React.Fragment>
     );
 }

@@ -7,11 +7,16 @@ import './Home.css';
 import alarm from '../alarm/alarm.png'
 import hr from '../hr/Line 15.png';
 import Footer from '../components/Footer';
+import { motion } from 'framer-motion'; 
 
 function Home() {
     return(
         <React.Fragment>
-            <div>
+            <motion.div
+                initial={{ opacity: 0, width: 0 }}
+                animate={{ opacity: 1, width: "100%", transition: { duration: 0.9 } }}
+                exit={{ opacity: 0, x: window.innerWidth, transition: { duration: 0.9 } }}
+            >
                 <Hero />
                     <div className="flex justify-between px-10 py-3 items-center">
                         <div>
@@ -70,7 +75,7 @@ function Home() {
                     <p className="text-lg px-5 text-center hidden md:block">We stream our services via two major Platforms;<br /> <b>MixLR</b> and <b>Google Meet</b>. <b>MixLR</b> is used for<br /> Audio Streaming while <b>Google Meet</b> is used for Video Streaming.<br /> To get more information about our Streaming platforms or<br /> if you have any questions on our service Streaming times, Click<br /> <a className="text-blue-600 underline" href="https://forms.gle/wybscpa8PJBpWueG8" target="_blank">here</a>.</p>
                 </div>
                 <Footer />
-            </div>
+            </motion.div>
         </React.Fragment>
     );
 }

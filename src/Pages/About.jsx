@@ -3,11 +3,17 @@ import './About.css';
 import AboutUsNavbar from "../NavBars/AboutUsNavbar";
 import fire from '../fire/pillaroffire.png';
 import Footer from '../components/Footer';
+import { motion } from "framer-motion";
 
 function About() {
     return(
         <React.Fragment>
-            <div className="about h-auto">
+            <motion.div
+                initial={{ opacity: 0, width: 0 }}
+                animate={{ opacity: 1, width: "100%", transition: { duration: 0.9 } }}
+                exit={{ opacity: 0, x: window.innerWidth, transition: { duration: 0.9 } }}
+                className="about h-auto"
+            >
                 <AboutUsNavbar />
                     <div className="px-5 md:px-20">
                         <h3 className="font-semibold text-2xl md:text-2xl md:uppercase mt-5 pb-6">About us</h3>
@@ -27,7 +33,7 @@ function About() {
                         <h2 className="text-xl md:text-center pb-5">Please use this site to access the informations regarding our services. Click the menu links for further information about our church. You can also find all our sermons from the 1st of July, 2022 till date on the sermons page. We look forward to hearing from you and answering any questions you might have.<br /> God Bless you.</h2>
                     </div>
                 <Footer />
-            </div>
+            </motion.div>
         </React.Fragment>
     );
 }
