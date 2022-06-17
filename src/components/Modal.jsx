@@ -75,7 +75,7 @@ export default function CustomizedDialogs() {
           </Typography>
           <Typography gutterBottom>
             <ol className='list-decimal pl-10'>
-              <li>Before and when you get admitted to join the Stream, put off your Camera from Viewing yourself and do not turn it on during the Stream. IMPORTANT!</li>
+              <li>Before and when you get admitted to join the Stream, turn off your Camera from Viewing yourself and do not turn it on during the Stream. IMPORTANT!</li>
               <li>Also, when you get admitted to join the stream, mute your Mic from recording so as to avoid distractions and to remove background noise.</li>
             </ol>
           </Typography>
