@@ -51,7 +51,7 @@ const Timer = () => {
         <section className='timer'>
           {/* #first-child */}
           <div className='main'>
-            <h3 className="text-3xl text-yellow-800">Our Next service is coming up in:</h3>
+            <h3 className="text-3xl">Our Next service is coming up in:</h3>
           </div>
 
           <div className="time">
