@@ -71,17 +71,20 @@ export default function CustomizedDialogs() {
         </DialogTitle>
         <DialogContent dividers>
           <Typography gutterBottom>
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-            in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+            Please endeavour to read the following instructions and follow them as they are given to join the stream, failure to do so, you may be removed from the stream, this is to avoid distraction to the Viewers and the Broadcaster. The following Instruction is for those that want to join the Video Livestream(<b>Google Meet</b>), but if you want to join the Audio Livestream(<b>MixLR</b>) please ignore the Instruction and click the <b>GET LINKS</b> button below to join in.
           </Typography>
           <Typography gutterBottom>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-            lacus vel augue laoreet rutrum faucibus dolor auctor.
+            <ol className='list-decimal pl-10'>
+              <li>Before and when you get admitted to join the Stream, put off your Camera from Viewing yourself and do not turn it on during the Stream. IMPORTANT!</li>
+              <li>Also, when you get admitted to join the stream, mute your Mic from recording so as to avoid distractions and to remove background noise.</li>
+            </ol>
+          </Typography>
+          <Typography gutterBottom className="pb-3">
+            If you have read through the instructions, go ahead and click the <b>GET LINKS</b> button below to join the Stream.
           </Typography>
           <Typography gutterBottom>
-            Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
-            scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus
-            auctor fringilla.
+            If you have any Issues or complaints during the stream, kindly use the InCall Messages on Google meet to relay your complaint or click <a className='text-blue-600 underline' href="https://forms.gle/8jwoCjqiQ37qcKmX8" _target="_blank">here</a> to do so.<br />
+            God Bless you as you comply.
           </Typography>
         </DialogContent>
         <DialogActions>

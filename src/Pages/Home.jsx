@@ -41,25 +41,25 @@ function Home() {
                             </div>
                         {/* content */}
                         <h3 className="pt-9 pb-2 font-semibold text-lg">Sunday School Service</h3>
-                        <h1 className="pb-4 time">8:30 am</h1>
+                        <h1 className="pb-4 gmt">8:30 am</h1>
                             <div className="flex justify-center items-center">
                                 <img src={hr} alt="hr" />
                             </div>
                         {/* content 2 */}
                         <h3 className="pt-9 pb-2 font-semibold text-lg">Sunday Morning Service</h3>
-                        <p className="pb-4 time">10:00 am</p>
+                        <p className="pb-4 gmt">10:00 am</p>
                             <div className="flex justify-center items-center">
                                 <img src={hr} alt="hr" />
                             </div>
                         {/* content 3 */}
                         <h3 className="pt-9 pb-2 font-semibold text-lg">Sunday Evening Service</h3>
-                        <p className="pb-4 time">4:30 pm</p>
+                        <p className="pb-4 gmt">4:30 pm</p>
                             <div className="flex justify-center items-center">
                                 <img src={hr} alt="hr" />
                             </div>
                         {/* content 4 */}
                         <h3 className="pt-9 pb-2 font-semibold text-lg">Wednesday Prayer Meeting</h3>
-                        <p className="pb-4 time">5:00 pm</p>
+                        <p className="pb-4 gmt">5:00 pm</p>
                             <div className="flex justify-center items-center">
                                 <img src={hr} alt="hr" />
                             </div>
