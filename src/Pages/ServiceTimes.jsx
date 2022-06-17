@@ -18,12 +18,12 @@ function ServiceTimes() {
                 <LivestreamNavbar />
                     <div>
                         <Timer />
-                        /*<h3 className='text-center text-3xl md:text-4xl pt-6 pb-5'>Greetings in the Precious Name of Jesus Christ!</h3>*/
-                            /*<div className='px-5 md:px-32'>*/
-                                /*<h3 className='text-xl pb-3'>Today being Sunday, our Church door opens by 8:30 am but we will start the Live broadcast/stream by 10:00 am that is immediately after the Sunday School Class, tune in by 10:00 am  to fellowship with us.</h3>*/
-                                /*<h3 className='text-xl pb-5'>Both of the Platforms we stream through will be onAir by 10:00 am, click the Button below to get the Links. God bless you as you wait.</h3>*/
-                                /*<Modal />*/
-                            /*</div>*/
+                        {/* <h3 className='text-center text-3xl md:text-4xl pt-6 pb-5'>Greetings in the Precious Name of Jesus Christ!</h3>
+                            <div className='px-5 md:px-32'>
+                                <h3 className='text-xl pb-3'>Today being Sunday, our Church door opens by 8:30 am but we will start the Live broadcast/stream by 10:00 am that is immediately after the Sunday School Class, tune in by 10:00 am  to fellowship with us.</h3>
+                                <h3 className='text-xl pb-5'>Both of the Platforms we stream through will be onAir by 10:00 am, click the Button below to get the Links. God bless you as you wait.</h3>
+                                <Modal />
+                            </div> */}
                     </div>
             </motion.div>
         </React.Fragment>
