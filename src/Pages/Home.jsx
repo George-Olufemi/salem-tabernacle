@@ -7,16 +7,12 @@ import './Home.css';
 import alarm from '../alarm/alarm.png'
 import hr from '../hr/Line 15.png';
 import Footer from '../components/Footer';
-import { motion } from 'framer-motion'; 
+// import { motion } from 'framer-motion'; 
 
 function Home() {
     return(
         <React.Fragment>
-            <motion.div
-                initial={{ opacity: 0, width: 0 }}
-                animate={{ opacity: 1, width: "100%", transition: { duration: 0.9 } }}
-                exit={{ opacity: 0, x: window.innerWidth, transition: { duration: 0.9 } }}
-            >
+            <div>
                 <Hero />
                     <div className="flex justify-between px-10 py-3 items-center">
                         <div>
@@ -34,16 +30,16 @@ function Home() {
                 <Sermons />
                 <Announcement />
                     <div className="believe text-center py-20">
-                        <h3 className='text-3xl font-semibold pb-10'>WHAT WE BELIEVE</h3>
-                        <p className="text-xl px-5 block md:hidden">Salem Tabernacle is a Non-Denominational Bible Believing church. We believe in the End-Time Message as foretold in Malachi 4:5&6 Revelation 10:7, Luke 17:30 etc as delivered in our day by Prophet William Marrion Branham.</p>
+                        <h3 className='text-2xl md:text-3xl font-semibold pb-10'>WHAT WE BELIEVE</h3>
+                        <p className="text-base px-5 block md:hidden">Salem Tabernacle is a Non-Denominational Bible Believing church. We believe in the End-Time Message as foretold in Malachi 4:5&6 Revelation 10:7, Luke 17:30 etc as delivered in our day by Prophet William Marrion Branham.</p>
                         <p className="text-xl px-5 hidden md:block">Salem Tabernacle is a Non-Denominational Bible<br /> Believing church. We believe in the End-Time Message<br /> as foretold in Malachi 4:5&6 Revelation 10:7,<br /> Luke 17:30 etc as delivered in our day by Prophet<br /> William Marrion Branham.</p>
                     </div>
                     {/* service times section */}
                     <div className="service text-center py-20">
-                        <h3 className="text-3xl font-semibold pb-10">SERVICE TIMES</h3>
-                            <div className="flex justify-center items-center">
+                            <div className="flex justify-center items-center pb-10">
                                 <img src={alarm} alt="" />
                             </div>
+                        <h3 className="text-2xl md:text-3xl font-semibold">SERVICE TIMES</h3>
                         {/* content */}
                         <h3 className="pt-9 pb-2 font-semibold text-lg">Sunday School Service</h3>
                         <h1 className="pb-4 gmt">8:45 am</h1>
@@ -75,7 +71,7 @@ function Home() {
                     <p className="text-lg px-5 text-center hidden md:block">We stream our services via two major Platforms;<br /> <b>MixLR</b> and <b>Google Meet</b>. <b>MixLR</b> is used for<br /> Audio Streaming while <b>Google Meet</b> is used for Video Streaming.<br /> To get more information about our Streaming platforms or<br /> if you have any questions on our service Streaming times, Click<br /> <a className="text-blue-600 underline" href="https://forms.gle/wybscpa8PJBpWueG8" target="_blank">here</a>.</p>
                 </div>
                 <Footer />
-            </motion.div>
+            </div>
         </React.Fragment>
     );
 }

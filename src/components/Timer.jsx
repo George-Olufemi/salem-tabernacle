@@ -10,7 +10,7 @@ const Timer = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date('June 19 2022 00:00:00').getTime();
+    const countdownDate = new Date('June 22 2022 00:00:00').getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -51,7 +51,7 @@ const Timer = () => {
         <section className='timer'>
           {/* #first-child */}
           <div className='main'>
-            <h3 className="text-3xl">Our Next service is coming up in:</h3>
+            <h3 className="text-2xl">Our Next service is coming up in:</h3>
           </div>
 
           <div className="time">

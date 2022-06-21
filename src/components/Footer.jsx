@@ -11,11 +11,11 @@ function Footer() {
             {/* phone */}
                 <div className="pb-6">
                     <div className="flex justify-center items-center pb-2 md:pb-5">
-                        <div className="pr-2 font-semibold text-xl">
-                            <h3>Phone</h3>
-                        </div>
                         <div>
-                            <img src={phone} alt="phone" />
+                            <img className='pr-2' src={phone} alt="phone" />
+                        </div>
+                        <div className="font-semibold text-xl">
+                            <h3>Phone</h3>
                         </div>
                     </div>
                     <p>+234-803-707-1859</p>
@@ -25,11 +25,11 @@ function Footer() {
                 {/* email */}
                 <div className="pb-6">
                     <div className="flex justify-center items-center pb-2 md:pb-5">
-                        <div className="pr-2 font-semibold text-xl">
-                            <h3>Email</h3>
-                        </div>
                         <div>
-                            <img src={mail} alt="phone" />
+                            <img className='pr-2' src={mail} alt="phone" />
+                        </div>
+                        <div className="font-semibold text-xl">
+                            <h3>Email</h3>
                         </div>
                     </div>
                     <p>bekfem@yahoo.com</p>
@@ -37,11 +37,11 @@ function Footer() {
                 {/* address */}
                 <div className="pb-6">
                     <div className="flex justify-center items-center pb-2 md:pb-5">
+                        <div>
+                            <img className='pr-2' src={address} alt="phone" />
+                        </div>
                         <div className="pr-2 font-semibold text-xl">
                             <h3>Address</h3>
-                        </div>
-                        <div>
-                            <img src={address} alt="phone" />
                         </div>
                     </div>
                     <p>3 Salem Close,<br /> Akarawak Street,<br /> Off Iko Ekwa Road,<br /> Eket,<br /> Akwa Ibom State.</p>

@@ -3,17 +3,12 @@ import LocateUsNavbar from "../NavBars/LocateUsNavbar";
 import './Locateus.css';
 import churchpic from '../churchpic/photo_2022-06-03_10-50-10.png';
 import Footer from "../components/Footer";
-import { motion } from "framer-motion";
+//import { motion } from "framer-motion";
 
 function LocateUs() {
     return(
         <React.Fragment>
-            <motion.div 
-                initial={{ opacity: 0, width: 0 }}
-                animate={{ opacity: 1, width: "100%", transition: { duration: 0.9 } }}
-                exit={{ opacity: 0, x: window.innerWidth, transition: { duration: 0.9 } }}
-                className='locate h-auto'
-            >
+            <div className='locate h-auto'>
                 <LocateUsNavbar />
                     <div className='px-4 md:px-16'>
                         <div className='md:flex md:justify-between md:px-10'>
@@ -42,7 +37,7 @@ function LocateUs() {
                         </div>
                     </div>
                     <Footer />
-            </motion.div> 
+            </div> 
         </React.Fragment>
     );
 }

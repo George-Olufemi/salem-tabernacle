@@ -9,7 +9,7 @@ function Hero() {
         <div className='hero h-screen'>
             <HomeNavbar />
             <div className="block md:hidden">
-                <h1 className="text-white text-3xl font-semibold pt-52 pl-5"><span className="text-white text-3xl">"</span>I was glad when they said unto me, Let us go into the house of the Lord.<span className="text-white text-3xl">"</span></h1>
+                <h1 className="text-white text-3xl font-semibold pt-32 md:pt-52 pl-5"><span className="text-white text-3xl opacity-100">"</span>I was glad when they said unto me, Let us go into the house of the Lord.<span className="text-white text-3xl">"</span></h1>
                 <h2 className="text-white text-2xl font-semibold pl-5 pt-12">Worship with us @</h2>
                 <h2 className="text-white text-2xl font-semibold pl-5 pt-5">Salem Tabernacle</h2>
                     <div className="pt-9 pl-5">
