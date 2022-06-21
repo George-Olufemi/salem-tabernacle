@@ -1,7 +1,7 @@
 import React from "react";
 import LocateUsNavbar from "../NavBars/LocateUsNavbar";
 import './Locateus.css';
-import churchpic from '../churchpic/photo_2022-06-03_10-50-10.png';
+import churchpic from '../churchpic/Church Pic.jpeg';
 import Footer from "../components/Footer";
 //import { motion } from "framer-motion";
 
@@ -25,7 +25,7 @@ function LocateUs() {
                                 <h1>bekfem@yahoo.com</h1>
                             </div>
                             <div className='md:pr-16'>
-                                <img className='w-96 pt-20' src={churchpic} alt="Church Pic" />
+                                <img className='w-96 pt-20 rounded-lg' src={churchpic} alt="Church Pic" />
                             </div>
                         </div>
                         {/* map */}
