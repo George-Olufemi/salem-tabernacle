@@ -71,7 +71,7 @@ export default function CustomizedDialogs() {
         </DialogTitle>
         <DialogContent dividers>
           <Typography gutterBottom>
-            Please endeavour to read the following instructions and follow them as they are given to join the stream, failure to do so, you may be removed from the stream, this is to avoid distraction to the Viewers and the Broadcaster. The following Instruction is for those that want to join the Video Livestream(<b>Google Meet</b>), but if you want to join the Audio Livestream(<b>MixLR</b>) please ignore the Instruction and click the <b>GET LINKS</b> button below to join in.
+            Please endeavour to read the following instructions and follow them as they are given to join the stream, failure to do so, you may be removed from the stream, this is to avoid distraction to the Viewers and the Broadcaster. The following Instructions are for those who want to join the Video Livestream(<b>Google Meet</b>), but if you want to join the Audio Livestream(<b>MixLR</b>) please ignore the Instructions and click the <b>GET LINKS</b> button below to join in.
           </Typography>
           <Typography gutterBottom>
             <ol className='list-decimal pl-10'>

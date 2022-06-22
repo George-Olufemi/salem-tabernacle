@@ -66,9 +66,9 @@ function Home() {
                             </div>
                     </div>
                 <div className="text-center py-10">
-                    <h3 className="font-semibold text-3xl pb-5">STREAMING PLATFORMS</h3>
-                    <p className="text-lg px-5 text-left block md:hidden">We stream our services via two major Platforms; <b>MixLR</b> and <b>Google Meet</b>. <b>MixLR</b> is used for Audio Streaming while <b>Google Meet</b> is used for Video Streaming. To get more information about our Streaming platforms or if you have any questions on our service Streaming times, Click <a className="text-blue-600 underline" href="https://forms.gle/wybscpa8PJBpWueG8" target="_blank">here</a>.</p>
-                    <p className="text-lg px-5 text-center hidden md:block">We stream our services via two major Platforms;<br /> <b>MixLR</b> and <b>Google Meet</b>. <b>MixLR</b> is used for<br /> Audio Streaming while <b>Google Meet</b> is used for Video Streaming.<br /> To get more information about our Streaming platforms or<br /> if you have any questions on our service Streaming times, Click<br /> <a className="text-blue-600 underline" href="https://forms.gle/wybscpa8PJBpWueG8" target="_blank">here</a>.</p>
+                    <h3 className="text-2xl md:text-3xl font-semibold pb-5">STREAMING PLATFORMS</h3>
+                    <p className="text-base px-5 text-left block md:hidden">We stream our services via two major Platforms; <b>MixLR</b> and <b>Google Meet</b>. <b>MixLR</b> is used for Audio Streaming while <b>Google Meet</b> is used for Video Streaming. To get more information about our Streaming platforms or if you have any questions on our service Streaming times, Click <a className="text-blue-600 underline" href="https://forms.gle/wybscpa8PJBpWueG8" target="_blank">here</a>.</p>
+                    <p className="text-base px-5 text-center hidden md:block">We stream our services via two major Platforms;<br /> <b>MixLR</b> and <b>Google Meet</b>. <b>MixLR</b> is used for<br /> Audio Streaming while <b>Google Meet</b> is used for Video Streaming.<br /> To get more information about our Streaming platforms or<br /> if you have any questions on our service Streaming times, Click<br /> <a className="text-blue-600 underline" href="https://forms.gle/wybscpa8PJBpWueG8" target="_blank">here</a>.</p>
                 </div>
                 <Footer />
             </div>
