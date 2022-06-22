@@ -53,7 +53,7 @@ export default function TransitionsModal() {
             <p className='pb-5' id="transition-modal-description"><a className='text-blue-800 underline' href="https://mixlr.com/saltab" target="_blank">Audio</a></p>
             {/*  */}
             <h2 className='text-lg' id="transition-modal-title">Google Meet - Video</h2>
-            <p id="transition-modal-description"><a className='text-blue-800 underline' href="https://meet.google.com/sta-cpqq-xiv" target="_blank">Video</a></p>
+            <p id="transition-modal-description"><a className='text-blue-800 underline' href="https://meet.google.com/ico-vdci-wcq" target="_blank">Video</a></p>
           </div>
         </Fade>
       </Modal>
